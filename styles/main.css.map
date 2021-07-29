@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACH,WAAW,ECFA,aAAa,EAAE,UAAU;CDGrC",
+    "sources": [
+        "main.scss",
+        "_fonts.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
