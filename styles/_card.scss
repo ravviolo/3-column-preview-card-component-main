@@ -1,0 +1,36 @@
+@import "fonts";
+@import "colors";
+
+.card-container {
+  display: flex;
+  width: 70%;
+  height: 60%;
+  border-radius: 10px;
+}
+.card {
+  &:first-of-type {
+    border-radius: 10px 0 0 10px;
+  }
+  &:last-of-type {
+    border-radius: 0 10px 10px 0;
+  }
+}
+.card--orange {
+  background-color: $orange;
+}
+.card--cyan {
+  background-color: $cyan;
+}
+.card--cyan-dark {
+  background-color: $cyan-dark;
+}
+.card-content {
+    height: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 2em;
+    margin-right: 2em;
+}
