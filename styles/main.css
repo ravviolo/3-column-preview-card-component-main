@@ -60,7 +60,6 @@ body {
 
 .card-content {
   height: 100%;
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,7 +73,7 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin-left: 2em;
-  margin-right: 2em;
+  width: 70%;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=main.css.map */
