@@ -12,6 +12,7 @@ html {
 
 body {
   font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
   background-color: #f2f2f2;
 }
 
@@ -34,7 +35,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 70%;
-  height: 60%;
+  height: 70%;
   border-radius: 10px;
 }
 
@@ -46,34 +47,57 @@ body {
   border-radius: 0 10px 10px 0;
 }
 
-.card--orange {
+.orange {
+  color: #e38826;
   background-color: #e38826;
 }
 
-.card--cyan {
+.cyan {
+  color: #006970;
   background-color: #006970;
 }
 
-.card--cyan-dark {
+.cyan-dark {
+  color: #004241;
   background-color: #004241;
 }
 
 .card-content {
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 70%;
+  width: 80%;
+  padding: 2em;
   margin: 0 auto;
+}
+
+.card__icon {
+  margin-top: 2em;
+}
+
+.card__title {
+  margin: 0.75em 0;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+.card__description {
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.9rem;
+}
+
+.card__button {
+  margin-top: 5.5em;
+  background-color: #f2f2f2;
+  padding: 1em 2em;
+  border-radius: 20px;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.card__button:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,7 @@
 .card-container {
   display: flex;
   width: 70%;
-  height: 60%;
+  height: 70%;
   border-radius: 10px;
 }
 .card {
@@ -15,21 +15,49 @@
     border-radius: 0 10px 10px 0;
   }
 }
-.card--orange {
+.orange {
+  color: $orange;
   background-color: $orange;
 }
-.card--cyan {
+.cyan {
+  color: $cyan;
   background-color: $cyan;
 }
-.card--cyan-dark {
+.cyan-dark {
+  color: $cyan-dark;
   background-color: $cyan-dark;
 }
 .card-content {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    width: 70%;
-    margin: 0 auto;
+  height: 100%;
+  width: 80%;
+  padding: 2em;
+  margin: 0 auto;
+}
+.card__icon {
+  margin-top: 2em;
+}
+.card__title {
+  margin: 0.75em 0;
+  font-family: $BigShoulders;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $gray;
+}
+.card__description {
+  line-height: 1.7;
+  color: $white-transparent;
+  font-size: 0.9rem;
+}
+.card__button {
+  margin-top: 5.5em;
+  background-color: $gray;
+  padding: 1em 2em;
+  border-radius: 20px;
+  border: none;
+  font-family: $LexendDeca;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
